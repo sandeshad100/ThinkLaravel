@@ -26,6 +26,7 @@ class ProductController extends Controller
             'title' => 'required',
             'qty' => 'required|numeric',
             'rate' => 'required|decimal:0,2',
+            'city' => 'nullable|string|max:20'
         ]);
 
         $newProduct = Product::create($data);

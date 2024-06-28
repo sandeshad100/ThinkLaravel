@@ -48,6 +48,11 @@
                 <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Rate"
                     name="rate">
             </div>
+            <div class="mb-3">
+                <label for="formGroupExampleInput2" class="form-label">Cities</label>
+                <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="City"
+                    name="city">
+            </div>
             <button type="submit" class="btn btn-success" name="submit">Add Product</button>
         </form>
     </div>
